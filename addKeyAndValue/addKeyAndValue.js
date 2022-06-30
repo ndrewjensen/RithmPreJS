@@ -1,4 +1,7 @@
 
-function addKeyAndValue() { 
-  // Add any parameters you need. Good luck!
+function addKeyAndValue(arr, key, val) {
+  for (obj of arr) {
+    obj[key]= val;
+  }
+  return arr;
 }
