@@ -1,4 +1,10 @@
 
-function onlyEvenValues() { 
-  // Add any parameters you need. Good luck!
+function onlyEvenValues(arr) {
+  let newArr = [];
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i]%2 ===0) {
+      newArr.push(arr[i]);
+    }
+  }
+  return newArr;
 }
