@@ -1,11 +1,17 @@
 function getToday() {
-  // Add any parameters you need. Good luck!
+  console.log(Date());
+  return new Date();
+
 }
 
 function isWeekend(date) {
-  // Add any parameters you need. Good luck!
+  let day = date.getDay();
+  return day === 0 || day === 6 ? true : false;
 }
 
 function getMonthName(date) {
-  // Add any parameters you need. Good luck!
+  monthNum = date.getMonth();
+  let monthNames = ['January', 'February','March','April', 'May', 'June','July','August','September','October','November','December'];
+  return monthNames[monthNum];
+
 }
