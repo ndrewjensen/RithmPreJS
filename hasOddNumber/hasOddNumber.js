@@ -1,4 +1,4 @@
 
-function hasOddNumber() { 
-  // Add any parameters you need. Good luck!
+function hasOddNumber(nums) {
+  return nums.some(num => num%2 === 1);
 }
